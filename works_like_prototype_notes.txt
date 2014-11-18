@@ -1,0 +1,11 @@
+Works-Like Prototype
+====================
+
+Interface functionality:
+------------------------
+- Volume up (button)
+- Volume down (button)
+- Active mode toggle (button)
+- Audio input (microphone?)
+- Audio output (speaker)
+- Proximity sensitivity (dial/pot?)
