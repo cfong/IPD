@@ -25,7 +25,18 @@ if __name__ == '__main__':
 	arduino = serial.Serial('/dev/ttyACM0', 9600)
 	print('Initializing')
 	time.sleep(2)
-	blink(4)
+
+	current_mode = 'Passive mode'
+
+	while True:
+		new_mode = arduino.readline()[:-2]
+		if new_mode == 'Active mode':
+			print 'Waiting for user input query'
+			# temp2 = raw_input('Waiting for user input')
+		elif new_mode == 'Passive mode':
+			print 'Currently in passive mode'
+			# fake_data = raw_input('Fake distance data (ft): ')
+
 
 	arduino.close()
 

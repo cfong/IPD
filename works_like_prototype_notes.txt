@@ -24,8 +24,8 @@ Demonstrating for Phase 3 Pinup:
 - Change in proximity sensitivity
 	- Print statement of what detection range is, as potentiometer is changed
 	- Changing vibration/light intensity as a result, given the same input
-- Ability to toggle between modes
-	- Print statement of 'active mode' when button is pressed
++ Ability to toggle between modes
+	+ Print statement of 'active mode' when button is pressed
 	- LED light up when button is pressed? 
 
 - Audio out is presumably quite ambitious? 

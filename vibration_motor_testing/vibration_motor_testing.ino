@@ -61,7 +61,7 @@ void runVibe() {
       break;
     case 2:
       Serial.print("0.25s on-0.25s off pulses");
-      for (int i=0; i<2; i++) {
+      for (int i=0; i<3; i++) {
         analogWrite(ledPin, intensity);
         analogWrite(vibePin, intensity);
         delay(250);
