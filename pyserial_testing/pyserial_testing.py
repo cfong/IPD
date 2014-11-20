@@ -15,6 +15,11 @@ def blink(duration):
 	print('LED off')
 	time.sleep(duration)
 
+def vibrate(duration, intensity):
+	"""Vibrates motor for specified duration"""
+
+	arduino.write('M')
+
 if __name__ == '__main__':
 
 	arduino = serial.Serial('/dev/ttyACM0', 9600)

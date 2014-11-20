@@ -7,6 +7,8 @@ const int ledPin = 13;
 void setup() {
   // Open serial port (data rate = 9600 baud)
   Serial.begin(9600);
+  
+  // Initialize pins as output:
   pinMode(ledPin, OUTPUT);
 }
 

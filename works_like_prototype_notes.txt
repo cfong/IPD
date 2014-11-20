@@ -9,3 +9,31 @@ Interface functionality:
 - Audio input (microphone?)
 - Audio output (speaker)
 - Proximity sensitivity (dial/pot?)
+
+- high frequency sound triangulation? -- different frequency for each thing? -- processing chip fft for frequency
+	- directional microphone on reciever 
+	- speaker on transmitter
+
+Demonstrating for Phase 3 Pinup:
+--------------------------------
+- Vibration intensity changing on distance
+	- Faked distance (eg: passing on integer distance)
+	- Faked distance (eg: calculating difference from longitude and latitude?)
+- Indication of direction?
+	- Print statement out?
+- Change in proximity sensitivity
+	- Print statement of what detection range is, as potentiometer is changed
+	- Changing vibration/light intensity as a result, given the same input
+- Ability to toggle between modes
+	- Print statement of 'active mode' when button is pressed
+	- LED light up when button is pressed? 
+
+- Audio out is presumably quite ambitious? 
+
+Items needed for demo:
+----------------------
++ vibration motor x 1
+- potentiometer x 1
+-	 button x 3
+- speaker (use computer)
+
