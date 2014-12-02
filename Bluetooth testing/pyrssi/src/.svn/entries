@@ -1,0 +1,64 @@
+8
+
+dir
+14
+https://pysportslive.googlecode.com/svn/trunk/pyrssi/pyrssi/src
+https://pysportslive.googlecode.com/svn
+
+
+
+2008-03-26T17:11:15.846016Z
+14
+maxinbjohn
+
+
+svn:special svn:externals svn:needs-lock
+
+pyrssi.py
+file
+
+
+
+
+2008-03-26T16:58:04.000000Z
+41925b6060e990f0c98a923aa44ba06e
+2008-03-26T17:11:15.846016Z
+14
+maxinbjohn
+
+pyrssi_wrap.c
+file
+
+
+
+
+2008-03-26T16:58:04.000000Z
+277ffd08bb5d0ee837e31ca7ad2d6280
+2008-03-26T17:11:15.846016Z
+14
+maxinbjohn
+
+__init__.py
+file
+
+
+
+
+2008-03-26T15:45:39.000000Z
+29fe81a7200fbc2b44f7e933ecd4a0aa
+2008-03-26T17:11:15.846016Z
+14
+maxinbjohn
+
+pyrssi.c
+file
+
+
+
+
+2008-03-26T16:57:05.000000Z
+1a28fbdd946c98b562be29e6f991c3d3
+2008-03-26T17:11:15.846016Z
+14
+maxinbjohn
+

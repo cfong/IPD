@@ -37,3 +37,7 @@ Items needed for demo:
 -	 button x 3
 - speaker (use computer)
 
+--------------------------------------
+
+Phone MAC address: 40:78:6A:E2:9D:53 
+passkey = 930975

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/14/trunk/pyrssi/pyrssi/src
+END
+pyrssi.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/14/trunk/pyrssi/pyrssi/src/pyrssi.py
+END
+pyrssi_wrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/14/trunk/pyrssi/pyrssi/src/pyrssi_wrap.c
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/14/trunk/pyrssi/pyrssi/src/__init__.py
+END
+pyrssi.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/14/trunk/pyrssi/pyrssi/src/pyrssi.c
+END

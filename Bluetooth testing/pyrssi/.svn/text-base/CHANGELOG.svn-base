@@ -1,0 +1,4 @@
+version 0.0.1
+
++ Released Alpha version of the module. The read_rssi() just works. Tested the functionality on a Compaq 6710b Laptop.
+
