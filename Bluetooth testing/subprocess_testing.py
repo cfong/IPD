@@ -21,22 +21,26 @@ def rssi_update(MAC_address):
 
 if __name__=='__main__':
 
-	for i in range(1,7):
+	# Distance between devices (inches)
+	dist = 25*12	
+	num_tests = 1
+
+	for i in range(1,num_tests+1):
 		print 'Pass #: ', i
 		plt.clf()
 
-		delay = 0.1
+		delay = 0.05
 		phone_MAC = '40:78:6A:E2:9D:53'
 
 		t = 0
-		max_time = 20
+		max_time = 60
 		rssi_val =[]
 
 		while t<=max_time:
 			new_val = rssi_update(phone_MAC)
 			rssi_val.append(new_val)
 			t = t+delay
-			# print new_val
+			print new_val
 			time.sleep(delay)
 
 		timespan = np.linspace(0,max_time, len(rssi_val))
@@ -48,13 +52,12 @@ if __name__=='__main__':
 		plt.plot((0, timespan[-1]), (mean_RSSI, mean_RSSI), linestyle='--')
 		plt.plot((0, timespan[-1]), (median_RSSI, median_RSSI), linestyle='--')
 		plt.ylim([min(rssi_val)-0.5, max(rssi_val)+0.5])
-		plt.title('Phone 244" to side of laptop')
-		plt.xlabel('Time (m)')
+		plt.title('Phone {}" to side of laptop'.format(dist))
+		plt.xlabel('Time (s)')
 		plt.ylabel('RSSI')
 		plt.legend(['RSSI data', 'Mean RSSI = {}'.format(mean_RSSI), 'Median RSSI = {}'.format(median_RSSI)], loc='best')
-		# plt.show()
-		plt.savefig('244in_away_test_hall_{}'.format(i))
-
+		plt.show()
+		plt.savefig('{}in_away_test_hall_{}sec_{}'.format(dist,max_time,i))
 
 
 	# plt.axis([0,100,-20,5])
